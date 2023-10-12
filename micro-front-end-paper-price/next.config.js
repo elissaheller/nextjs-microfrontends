@@ -10,16 +10,16 @@ module.exports = {
     const { isServer } = options;
     const mfConf = {
       mergeRuntime: true, //experimental
-      name: "app1",
+      name: "app2",
       library: {
         type: config.output.libraryTarget,
-        name: "app1",
+        name: "app2",
       },
-      filename: "static/runtime/app1RemoteEntry.js",
+      filename: "static/runtime/app2RemoteEntry.js",
       remotes: {
       },
       exposes: {
-        "./luigi": "./components/luigi",
+        "./price": "./components/price",
       },
     };
     config.cache = false;

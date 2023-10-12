@@ -10,16 +10,16 @@ module.exports = {
     const { isServer } = options;
     const mfConf = {
       mergeRuntime: true, //experimental
-      name: "app2",
+      name: "app1",
       library: {
         type: config.output.libraryTarget,
-        name: "app2",
+        name: "app1",
       },
-      filename: "static/runtime/app2remoteEntry.js",
+      filename: "static/runtime/app1RemoteEntry.js",
       remotes: {
       },
       exposes: {
-        "./mario": "./components/mario",
+        "./colors": "./components/colors",
       },
     };
     config.cache = false;

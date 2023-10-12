@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Luigi from '../components/luigi'
+import Colors from '../components/colors'
 import styles from '../styles/Home.module.css'
 
 
@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Luigi />
+      <Colors />
     </div>
   )
 }
