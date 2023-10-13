@@ -2,7 +2,7 @@
 
 Microfrontends using Next.js and Module Federation
 
-#### https://www.npmjs.com/package/@module-federation/nextjs-mf
+#### Forked from https://www.npmjs.com/package/@module-federation/nextjs-mf
 
 ### How to Test setup 
 
@@ -27,6 +27,6 @@ npm run dev
 ```
 
 ## Testing setup
-Shell app: http://localhost:3000/
-Price app: http://localhost:3001/
-Colors app: http://localhost:3002/
+- Shell app: http://localhost:3000/
+- Price app: http://localhost:3001/
+- Colors app: http://localhost:3002/
